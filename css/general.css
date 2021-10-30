@@ -65,6 +65,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.grid--3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .grid-center-vert {
   align-items: center;
 }
