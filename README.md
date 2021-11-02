@@ -9,3 +9,5 @@ Added nav section
 Added Hero section
 
 Added the meals section
+
+Testimonials section added
