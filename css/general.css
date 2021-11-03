@@ -25,6 +25,9 @@ tints:
 #fdf2e9
 #fae5d3
 
+tints
+#eb984e
+
 border-radius:
 default: 9px;
 medium: 11px;
@@ -59,7 +62,7 @@ body {
 /* reusable components */
 
 .container {
-  max-width: 130rem;
+  max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -70,12 +73,28 @@ body {
   row-gap: 9.6rem;
 }
 
+/* .grid:last-child {
+  margin-bottom: 0;
+} */
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid-center-vert {
@@ -120,6 +139,7 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -128,6 +148,9 @@ body {
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  /* only for btn class */
+  border: none;
+  cursor: pointer;
   transition: all 0.3s;
 }
 
@@ -155,6 +178,18 @@ body {
   color: #555;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -170,14 +205,40 @@ body {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.5rem rgba(235, 150, 34, 0.5);
+}
+
 /* helper classes */
 
 .margin-right-sm {
-  margin-right: 1.6rem;
+  margin-right: 1.6rem !important;
 }
 
 .margin-bottom-md {
-  margin-bottom: 4.8rem;
+  margin-bottom: 4.8rem !important;
 }
 
 .center-text {
