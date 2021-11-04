@@ -11,3 +11,13 @@ Added Hero section
 Added the meals section
 
 Testimonials section added
+
+Pricing section added
+
+Featured section added
+
+Form section added
+
+Footer section added
+
+# responsive web design
