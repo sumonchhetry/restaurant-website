@@ -8,6 +8,7 @@
   /* cause we want to make a sticky headr so we are making a specific height */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -20,7 +21,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
