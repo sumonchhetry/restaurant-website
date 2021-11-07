@@ -23,3 +23,5 @@ Footer section added
 # responsive web design
 
 Design as per breakpoints intead of only focusing on the devices
+
+Responsibe design complete
