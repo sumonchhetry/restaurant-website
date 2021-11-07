@@ -24,4 +24,4 @@ Footer section added
 
 Design as per breakpoints intead of only focusing on the devices
 
-Responsibe design complete
+Responsive design complete
