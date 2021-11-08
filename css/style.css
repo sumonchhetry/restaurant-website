@@ -107,6 +107,7 @@
 
 .delivered-faces {
   display: flex;
+  margin-top: 8rem;
 }
 
 .delivered-faces img {
