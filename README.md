@@ -25,3 +25,7 @@ Footer section added
 Design as per breakpoints intead of only focusing on the devices
 
 Responsive design complete
+
+# Adding js to the website
+
+Added smooth scrolling effect with Javs=ascript
