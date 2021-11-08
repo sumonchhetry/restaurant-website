@@ -28,4 +28,4 @@ Responsive design complete
 
 # Adding js to the website
 
-Added smooth scrolling effect with Javs=ascript
+Added smooth scrolling effect with Javascript
