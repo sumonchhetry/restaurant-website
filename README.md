@@ -30,4 +30,6 @@ Responsive design complete
 
 Added smooth scrolling effect with Javascript
 
+Added the sticky navbar effect
+
 Adding finishing touch
